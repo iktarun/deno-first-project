@@ -1,3 +1,4 @@
+// @ts-ignore
 import { format } from "https://deno.land/x/date_fns/index.js";
 
 interface Story {

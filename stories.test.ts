@@ -1,7 +1,9 @@
+// @ts-ignore
 import { assertEquals } from "https://deno.land/std/testing/asserts.ts";
 
 import { mapStory } from "./stories.js";
 
+// @ts-ignore
 Deno.test("maps to a smaller story with formatted date", () => {
   const stories = [
     {
